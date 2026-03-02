@@ -138,7 +138,7 @@ export default function Landing() {
             <ThemeToggle />
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button onClick={() => navigate("/planner")} className="gap-2 font-display font-bold">
-                Start Planning <ArrowRight className="h-4 w-4" />
+                Get Started <ArrowRight className="h-4 w-4" />
               </Button>
             </motion.div>
           </div>
@@ -197,7 +197,7 @@ export default function Landing() {
           >
             <motion.div whileHover={{ scale: 1.06, y: -2 }} whileTap={{ scale: 0.96 }}>
               <Button size="lg" onClick={() => navigate("/planner")} className="gap-2.5 px-10 py-6 text-lg font-display font-bold rounded-xl shadow-lg shadow-primary/20">
-                <Wand2 className="h-5 w-5" /> Create Lesson Plan
+                <Wand2 className="h-5 w-5" /> Get Started — It's Free
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }}>
@@ -328,7 +328,7 @@ export default function Landing() {
               </div>
               <motion.div className="mt-8" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button size="lg" onClick={() => navigate("/planner")} className="gap-2 font-display font-bold rounded-xl">
-                  Try It Now <ArrowRight className="h-4 w-4" />
+                  Get Started <ArrowRight className="h-4 w-4" />
                 </Button>
               </motion.div>
             </motion.div>
@@ -449,7 +449,7 @@ export default function Landing() {
           </motion.p>
           <motion.div variants={fadeUp} custom={3} whileHover={{ scale: 1.06, y: -3 }} whileTap={{ scale: 0.95 }}>
             <Button size="lg" onClick={() => navigate("/planner")} className="gap-2.5 px-12 py-6 text-lg font-display font-bold rounded-xl shadow-lg shadow-primary/20">
-              <Sparkles className="h-5 w-5" /> Start Planning — It's Free
+              <Sparkles className="h-5 w-5" /> Get Started — It's Free
             </Button>
           </motion.div>
         </div>
